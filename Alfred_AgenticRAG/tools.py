@@ -4,8 +4,8 @@ from smolagents import DuckDuckGoSearchTool
 search_tool = DuckDuckGoSearchTool()
 
 # Example usage
-results = search_tool("Who's the current President of France?")
-print(results)
+# results = search_tool("Who's the current President of France?")
+# print(results)
 
 from smolagents import Tool
 import random
@@ -82,7 +82,7 @@ alfred = CodeAgent(
 )
 
 # Example query Alfred might receive during the gala
-response = alfred.run("What is Facebook and what's their most popular model?")
+# response = alfred.run("What is Facebook and what's their most popular model?")
 
-print("🎩 Alfred's Response:")
-print(response)
+# print("🎩 Alfred's Response:")
+# print(response)

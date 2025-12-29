@@ -1,0 +1,4 @@
+venv/
+First_agent_template/
+__pycache__/
+ ../.gitignore

@@ -56,8 +56,8 @@ model = InferenceClientModel()
 alfred = CodeAgent(tools=[guest_info_tool], model=model)
 
 # Example query Alfred might receive during the gala
-response = alfred.run('Alfred, who is that gentleman talking to the ambassador?')
-# response = alfred.run("Tell me about our guest named 'Lady Ada Lovelace', you should only give me the info about person I ask, no other info needed.")
+# response = alfred.run("Tell me about Lady Ada Lovelace.")
+# # response = alfred.run("Tell me about our guest named 'Lady Ada Lovelace', you should only give me the info about person I ask, no other info needed.")
 
-print("🎩 Alfred's Response:")
-print(response)
+# print("🎩 Alfred's Response:")
+# print(response)
